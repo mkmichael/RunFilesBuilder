@@ -41,7 +41,7 @@ jobs:
         run: |
           echo "Get PACKAGE_VERSION=$PACKAGE_VERSION"
           
-          FILE_PREFIXES=("luci-app-passwall2" "geoview" "hysteria" "naiveproxy" "shadowsocks-rust-sslocal" "shadowsocks-rust-ssserver" "shadowsocksr-libev-ssr-local" "shadowsocksr-libev-ssr-redir" "shadowsocksr-libev-ssr-server" "simple-obfs" "sing-box" "tcping" "tuic-client" "v2ray-geoip" "v2ray-geosite" "v2ray-plugin" "xray-core")
+          FILE_PREFIXES=("luci-app-passwall2" "geoview" "sing-box" "tcping" "tuic-client" "v2ray-geoip" "v2ray-geosite"  "xray-core")
           EXCLUDE_PREFIXES=("luci-app-naiveproxy" "simple-obfs-client" "simple-obfs-server")
           
           BASE_URL_X86="https://dl.openwrt.ai/$PACKAGE_VERSION/x86_64/kiddin9/"
